@@ -119,8 +119,8 @@ function($, _, moment) {
   kbn.round_interval = function(interval) {
     switch (true) {
     // 0.5s
-    case (interval <= 500):
-      return 100;       // 0.1s
+    // case (interval <= 500):
+    //   return 100;       // 0.1s
     // 5s
     case (interval <= 5000):
       return 1000;      // 1s
